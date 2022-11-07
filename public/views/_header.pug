@@ -1,6 +1,6 @@
 header
   nav.nav__top
-    a.nav__top--logo(href="/") cypher
+    a.nav__top--logo(href="/") CyQuest v7
     ul.nav__top--list
       li: a(href="/leaderboard") Leaderboard
       if user
@@ -8,4 +8,5 @@ header
         li: .logout(onclick='checkLogout()')= `@${user.username}`
       else 
         li: a(href="/login") Login
+        li: a(href="/signupAdmin") Sign Up
 
