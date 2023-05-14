@@ -16,4 +16,5 @@ block content
         th Level
     tbody
       each user, index in users
-        +tableElement(`${index + 1}`, user.username, user.level)
+
+          +tableElement(`${index + 1}`, user.username, user.level)

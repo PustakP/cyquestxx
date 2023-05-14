@@ -20,7 +20,8 @@ router.get("/signup", (req, res) => {
 router.use(userController.isLoggedIn);
 
 router.get("/leaderboard", async (req, res) => {
-	const users = await playController.getDashboardView();
+	const users2 = await playController.getDashboardView();
+  const users = users2.slice(0, 15);
 	res.status(200).render("leaderboard", {
 		title: "Dashboard",
 		users,

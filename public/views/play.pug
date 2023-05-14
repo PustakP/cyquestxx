@@ -2,11 +2,13 @@ extends base
 
 block content 
   if question.completed
-    h2 Congratulations!
+    h2 Congratulations for reaching the end(?) of CyQuest v7
   else 
     h3 Level #{question.level}
     h4= question.problem
     p.hint Hint:  #{question.hint}
+
+    
 
     form.question-form
       label.login-form__username Answer
