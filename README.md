@@ -1,6 +1,3 @@
-# Cypher- The Cryptic Hunt
-
-***A full stack website to host and deploy online cryptic/treasure hunts***
 
 Built with:
 <p>
@@ -36,5 +33,3 @@ Built with:
 ### 3. Adding Questions
 - After you have promoted yourself to an admin, enter the questions on the ```/newQuestion``` route, which will only accept a question if you are an admin, otherwise will reject it.
 - Make sure you add the level numbers correctly.
-
-Happy Crypting! ✨
